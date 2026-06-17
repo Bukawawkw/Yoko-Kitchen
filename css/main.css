@@ -1,0 +1,303 @@
+header, section, footer, aside, nav, article, figure, figcaption
+{
+		display: block;
+}
+
+body
+{
+		color: #666666;
+		background-color: #F9F8F6;
+		background-image: url("../images/dark-wood.jpg");
+		background-position: center;
+		font-family: Georgia, "Times New Roman", Times, Serif;
+		line-height: 1.4em;
+		margin: 0px;
+}
+
+.wrapper
+{
+		/*width: 940px;*/
+		width: 1040px;
+		margin: 20px auto 20px auto;
+		border: 2px solid black;
+		background-color: white;
+}
+
+header
+{
+		/*height: 160px;*/
+		height: 185px;
+		background-image: url("../images/header.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+}
+
+h1
+{
+		text-indent: -9999px; /* Uhh.. Magical numbers yes */
+		width: 940px;
+		height: 130px;
+		margin: 0px;
+}
+
+nav, footer
+{
+		clear: both;
+		color: white;
+		background-color: #AEACA8;
+		margin-top: 10px;
+}
+
+footer
+{
+		height: 30px;
+}
+
+nav
+{
+		height: 40px;
+		border-bottom: 2px solid #BEBEBE;
+}
+
+nav ul
+{
+		margin: 0px;
+		/*padding: 5px 0px 5px 30px;*/
+		padding: 9px 0px 0px 30px;
+		border-top: 1px solid #BEBEBE;
+}
+
+nav li
+{
+		display: inline;
+		margin-right: 40px;
+}
+
+nav li a
+{
+		transition: color 0.4s, background-color 0.4s ease;
+		color: white;
+		padding: 4px 15px 3px 15px;
+}
+
+nav li a:hover, nav li a.current
+{
+		color: #DE6581;
+		background-color: #EFEFEF;
+		/*padding: 4px 15px 3px 15px;*/
+}
+
+section.courses
+{
+		float: left; 
+		width: 755px;
+		border-right: 1px solid #EEEEEE;
+}
+
+section p
+{
+		width: 95%;
+}
+
+article
+{
+		clear: both;
+		overflow: auto;
+		width: 100%;
+}
+
+hgroup
+{
+		margin-top: 40px;
+}
+
+figure
+{
+		float: left;
+		width: 290px;
+		height: 220px;
+		padding: 5px;
+		margin: 20px;
+		border: 1px solid #EEEEEE;
+}
+
+figcaption
+{
+		font-size: 90%;
+		text-align: left;
+		padding: 0px 0px 0px 20px;
+}
+
+aside
+{
+		width: 230px;
+		float: left;
+		padding: 0px 0px 0px 20px;
+		border-left: 1px solid #EEEEEE;
+		height: 540px;
+}
+
+aside section a
+{
+		display: block;
+		padding: 10px;
+		border-bottom: 1px solid #EEEEEE;
+		transition: color 0.3s, background-color 0.3s ease-out;
+		/* Absolutely adore making those little liquid like animations */
+}
+
+aside section a:hover
+{
+		color: #985D6A;
+		/*background-color: #EFEFEF;*/
+		background-color: #EDEDED;
+}
+
+a
+{
+		color: #DE6581;
+		text-decoration: none;
+}
+
+h1, h2, h3
+{
+		font-weight: normal;
+}
+
+h2
+{
+		margin: 10px 0px 5px 0px;
+		padding: 0px;
+}
+
+h3
+{
+		margin: 0px 0px 10px 0px;
+		color: #DE6581;
+}
+
+aside h2
+{
+		padding: 30px 0px 10px 0px;
+		color: #DE6581;
+}
+
+footer
+{
+		font-size: 80%;
+		/*padding: 7px 0px 0px 20px; */
+		padding: 8px 0px 0px 21px;
+}
+
+/* NEW ENTRIES */
+.contact
+{
+		color: #D86781;
+}
+
+.contact button
+{
+	transition: color 0.3s, background-color 0.3s ease-out;
+}
+
+.contact button:hover
+{
+	background-color: #D86781;
+	color: white;
+}
+
+.contact p
+{
+	margin-left: 1em;
+}
+
+.br-line-wide
+{
+	height: 1px;
+	width: 97%;
+	margin-left: 11px;
+	margin-top: 10px;
+	background-color: #EEEEEE;
+}
+
+.field-border-red
+{
+	border: 1px #D86781 solid;
+	margin: 2em 2em 1em 2em;
+}
+
+.field-border-red button
+{
+	font-weight: bold;
+	background-color: white;
+	border: 1px #DB6781 dashed;
+	padding: 0.3em 1.5em 0.3em 1.5em;
+}
+
+.field-border-red div
+{
+	margin: 10px;
+}
+
+.field-border-red label
+{
+	margin-right: 1rem;
+}
+
+.field-border-red input
+{
+	text-align: center;
+}
+
+.register-section hgroup
+{
+	margin-top: 4rem;
+}
+
+.register-section h2
+{
+	margin-left: 1.4em;
+	color: #DB6781;
+}
+
+.register
+{
+	font-size: 1.1rem;
+	margin-left: 2em;
+}
+
+#firstname
+{
+	margin-left: 26px;
+}
+
+#lastname
+{
+	margin-left: 29px;
+}
+
+#address
+{
+	margin-left: 48px;
+}
+
+.about figure 
+{
+	height: 270px;
+	width: 300px;
+}
+
+.about img
+{
+	margin-left: 6px;
+}
+
+.about hgroup
+{
+	margin-left: 1.5em;
+}
+
+.about p
+{
+	margin-left: 1.3em;
+}
